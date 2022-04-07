@@ -5,6 +5,8 @@
 das bibliotecas que serão utilizadas a padrão é utilizada a <stdio.h> 
 que é usada para cabeçario padrão de entrada e saídas  */
 
+//Todas a instruções em C devem ser terminadas com ";" obrigatóriamente
+
 #include <stdio.h>
 
 /* Para qualquer instruções que serão feitas em C são declaradas em funções por
