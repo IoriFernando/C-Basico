@@ -15,14 +15,19 @@ hora todas as instruções são definida na função chamada main que quando del
 
 
 int main(){
-		/* Para qualquer instruções que serão feitas em C são declaradas em funções por
+	/* Para qualquer instruções que serão feitas em C são declaradas em funções por
 	hora todas as instruções são definida na função chamada main que quando delarada
 	é a primeira função a ser chamada em todo arquivo em C.*/
 
 	printf("Hello Word!");
 	/* printf("  "); é o comando utilizado para exibir mensagens na tela */
+	/*
+	    \t	Creates a horizontal tab	
+	    \\	Inserts a backslash character (\)	
+	    \"	Inserts a double quote character       
+	*/
 	return 0;
-		/* Nessa função main é declarada como do tipo inteiro "int" por isso ao função retornar 0
+	/* Nessa função main é declarada como do tipo inteiro "int" por isso ao função retornar 0
 	como saindo o compilardo entende que a função já cumpriu todas as suas intruções por isso 
 	a aplicação e encerrada*/
 }
