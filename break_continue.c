@@ -4,7 +4,6 @@
 
 int main(){
 	setlocale(LC_ALL, "Portuguese");
-	printf("Isso é um teste\n");
 	
 	/*Break 
 		Esse comando é utilizado no switch para saltar uma instrunção;
