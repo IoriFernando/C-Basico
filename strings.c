@@ -36,6 +36,11 @@ int main(){
 	printf("\nTamanho da primeira declaração = %lu",sizeof(minhastring));
 	printf("\nTamanho da segunda declaração = %lu",sizeof(outrastring));
 	
+	//Entrada de uma string
+	char primeironome[10];
+	printf("\nDefina seu primeiro nome: ");
+	scanf("%s",&primeironome);
+	printf("\nOlá, %s",primeironome);	
 	
 	return 0;
 }
