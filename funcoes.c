@@ -29,6 +29,13 @@
 	/*Funções com parâmetros
 	Parâmetros dentro das funções funcionam como variáveis dentro dela podendo receber 
 	múltiplos parâmentros para seus determinados fins*/
+	int sum(int k) {
+  		if (k > 0) {
+  		return k + sum(k - 1);
+  		} else {
+    	return 0 ;
+  		}
+	}
 	
 	int soma( int num1, int num2){
 		return num1+num2;
@@ -38,11 +45,6 @@
 	//As funções podem ser declarada mas não definidas ex.:
 	void funcaoteste();
 	//ir a linha 62
-	
-	
-	/*Funções recursivas 
-	São funções que há uma técnica que ela se chamar a si mesma a fim de resolver problemas
-	complexos de maneira mais simples exemplo da matemática o fatorial*/
 	
 	
 int main(){
@@ -57,12 +59,14 @@ int main(){
 	scanf("%d",&b);
 	
 	//chamada da função soma
-	printf("A soma dos dois numero é igual a %d",soma(a,b));
+	printf("A soma dos dois numero é igual a: %d",soma(a,b));
 	
-	// chamada da função funcaoteste
-	funcaoteste();
-	
-
+	//Chamada da função sum
+	int result;
+	printf("\nDigite um número para soma recursiva:");
+	scanf("%d",&result);
+	printf("%d", sum(result));
+	return 0;
 }
 
 
