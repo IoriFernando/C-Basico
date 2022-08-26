@@ -70,7 +70,3 @@ int main(){
 void funcaoteste(){
 	printf("\nA função declarada antes foi definida com sucesso");
 }
-	
-
-	
-	
